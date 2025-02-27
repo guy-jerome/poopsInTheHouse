@@ -1,0 +1,14 @@
+{
+  "name": "poopsinthehouse",
+  "version": "1.0.0",
+  "description": "This project keeps track of how many poops are made in the house",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Roberts",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.8.3"
+  }
+}
