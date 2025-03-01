@@ -23,6 +23,15 @@ module.exports = {
         test: /\.css$/, // Handle CSS files
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.html$/, // Load HTML files as strings
+        use: {
+          loader: "html-loader",
+          options: {
+            minimize: true, // Optional: Minify the HTML
+          },
+        },
+      },
     ],
   },
   plugins: [

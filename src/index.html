@@ -7,6 +7,10 @@
   </head>
   <body ng-controller="mainController">
     <h1>{{ message }}</h1>
-    <test></test>
+    <ul>
+      <li ng-repeat="pooper in poopers">
+        <poop-counter name="{{pooper}}"></poop-counter>
+      </li>
+    </ul>
   </body>
 </html>

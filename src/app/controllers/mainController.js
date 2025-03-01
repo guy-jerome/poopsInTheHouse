@@ -1,3 +1,12 @@
 export default function MainController($scope) {
-  $scope.message = "Hello, AngularJS with Webpack!";
+  $scope.message = "Keeping track of those Poops!";
+  $scope.poopers = [
+    "Sam",
+    "Aaron",
+    "Kaspian",
+    "Maisy",
+    "Lanny",
+    "Snickers",
+    "Houdini",
+  ];
 }
