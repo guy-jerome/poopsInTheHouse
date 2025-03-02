@@ -7,5 +7,6 @@ export default function poopCounter() {
     scope: { name: "@" },
     controller: poopCounterController,
     controllerAs: "ctrl",
+    bindToController: true,
   };
 }

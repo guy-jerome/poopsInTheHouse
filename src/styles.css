@@ -1,0 +1,74 @@
+/* src/styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Directive Styles */
+.poop-counter {
+  text-align: center;
+}
+
+.poop-counter h2 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.poop-counter h3 {
+  color: #777;
+  margin-top: 0;
+}
+
+.poop-counter button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.poop-counter button:hover {
+  background-color: #218838;
+}
+
+.poop-counter button:active {
+  background-color: #1e7e34;
+}
+
+.poop-counter button:last-child {
+  background-color: #dc3545;
+}
+
+.poop-counter button:last-child:hover {
+  background-color: #c82333;
+}
+
+.poop-counter button:last-child:active {
+  background-color: #bd2130;
+}
