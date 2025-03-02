@@ -1,5 +1,5 @@
-export default function poopCounterController() {
-  this.numberOfPoops = 0;
+export default function poopCounterController(poopStateService) {
+  this.numberOfPoops = poopStateService.getState().numberOfPoops;
   this.incrementPoops = function () {
     this.numberOfPoops += 1;
   };
@@ -11,3 +11,5 @@ export default function poopCounterController() {
     }
   };
 }
+
+poopCounterController.$inject = ["poopStateService"];
