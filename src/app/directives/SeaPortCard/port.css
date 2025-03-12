@@ -1,0 +1,59 @@
+/* Basic Card Container */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  max-width: 400px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Header */
+.card-header {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+/* Card Content */
+.card-content {
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Card Footer */
+.card-footer {
+  border-top: 1px solid #eeeeee;
+  padding-top: 1rem;
+  text-align: right;
+}
+
+/* Optional: Card Button */
+.card-button {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background: #0056b3;
+}
